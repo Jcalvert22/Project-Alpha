@@ -1,0 +1,66 @@
+.cert-img-container {
+    text-align: center;
+    margin: 1.5em 0;
+}
+.cert-img {
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px;
+}
+a:visited {
+    color: purple;
+}
+a {
+    text-align: center;
+}
+
+body {
+    background: white;
+    color: #222;
+    transition: background 0.3px, color 0.3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
+ .about-header {
+     color: blue;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 0.5px;
+}
+
+
+
+
+h1,
+h2,
+p,
+a {
+    color: #003366;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-align: center;
