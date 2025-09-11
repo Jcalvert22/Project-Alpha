@@ -27,9 +27,9 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
 
  .about-header {
-     color: blue;
+     color: #003366;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 2px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
@@ -64,3 +64,4 @@ ul {
 
 a {
     text-align: center;
+}
