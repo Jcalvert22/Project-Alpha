@@ -20,7 +20,7 @@
     <div id="cards-container" class="row g-4 justify-content-center"></div>
   </main>
   <footer class="text-center bg-light py-4 mt-5">
-    <small>&copy; 2025 Your Name</small>
+    <small>&copy; 2025 Jace Calvert</small>
   </footer>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="scripts/script.js"></script>
@@ -31,11 +31,11 @@
 ## CSS
 ```css
 body {
-  background: #fff;
-  color: #222;
+  background: white;
+  color: black;
 }
 .card {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px black;
 }
 ```
 
