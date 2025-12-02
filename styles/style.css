@@ -63,17 +63,6 @@ p, a, li {
     box-shadow: 0 2px 8px rgba(41,134,204,0.08); /* steelblue shadow */
 }
 
-.cert-img-container {
-    text-align: center;
-    margin: 1.5em 0;
-}
-.cert-img {
-    width: 400px;
-    height: auto;
-    border: 2px solid white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px;
-}
 a:visited {
     color: purple;
 }
