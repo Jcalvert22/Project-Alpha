@@ -1,9 +1,4 @@
 
-// Button click handler
-function btnClicky() {
-	console.log("Button was clicked!");
-}
-
 // Display projects from array
 function displayProjects(projects) {
 	if (Array.isArray(projects)) {
@@ -21,12 +16,3 @@ function displayAchievements(achievements) {
 		console.error("Achievements data is not an array:", achievements);
 	}
 }
-
-// DOMContentLoaded event
-document.addEventListener("DOMContentLoaded", () => {
-	console.log("document succesfully loaded");
-	const btn = document.getElementById("btnClicky");
-	if (btn) {
-		btn.addEventListener("click", btnClicky);
-	}
-});
