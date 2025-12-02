@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 container.innerHTML += `
                     <div class="col-md-6 col-lg-4">
                         <div class="card h-100 shadow">
-                            <img src="${project.image}" class="card-img-top" alt="${project.title}" style="height:180px;object-fit:contain;background:#fafafa;">
+                            <img src="${project.image}" class="card-img-top" alt="${project.title}" style="height:180px;object-fit:contain;background:#fafafa;" loading="lazy" width="300" height="180" srcset="${project.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 1x, ${project.image} 2x">
                             <div class="card-body">
                                 <h5 class="card-title">${project.title}</h5>
                                 <p class="card-text">${project.description}</p>

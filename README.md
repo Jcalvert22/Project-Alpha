@@ -45,6 +45,7 @@ A modern, responsive developer profile and portfolio for CIS-376. The site inclu
 - Set cache-control headers for static assets (images, CSS, JS) in your hosting/CDN for longer cache lifetimes.
 - All scripts use defer for non-blocking load.
 - Font-display: swap is set for Google Fonts.
+- These were all recomendations from the Google Lighthouse program.
 
 ## Documentation & Wiki
 

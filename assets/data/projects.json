@@ -2,21 +2,21 @@
   {
     "title": "Project Bravo - Game",
     "description": "A browser-based game built with JavaScript and Bootstrap. Play and enjoy!",
-    "image": "img/game-thumb.png",
+  "image": "img/game-thumb.webp",
     "codeUrl": "https://github.com/Jcalvert22/project-bravo",
     "appUrl": "https://jcalvert22.github.io/project-bravo/index.html"
   },
   {
     "title": "Project Charlie - Game Organizer",
     "description": "An organizer app for managing and tracking games, built with modern web technologies.",
-    "image": "img/charlie-thumb.png",
+  "image": "img/charlie-thumb.webp",
     "codeUrl": "https://github.com/Jcalvert22/project-charlie",
     "appUrl": "https://jcalvert22.github.io/group-project-charlie/"
   },
   {
     "title": "Project Delta",
     "description": "A web application for Project Delta. (Add a short description here)",
-    "image": "img/delta-thumb.png",
+  "image": "img/delta-thumb.webp",
     "codeUrl": "https://github.com/Jcalvert22/project-delta",
     "appUrl": "https://jcalvert22.github.io/project-delta/"
   }
