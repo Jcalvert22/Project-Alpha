@@ -1,0 +1,14 @@
+[
+  {
+    "title": "CodeAcademy Web Development",
+    "description": "Completed CodeAcademy Web Development track.",
+    "date": "2025-05-10",
+    "image": "../images/codeacademy.png"
+  },
+  {
+    "title": "Bootstrap 5 Mastery",
+    "description": "Built multiple responsive sites using Bootstrap 5.",
+    "date": "2025-07-22",
+    "image": "../images/bootstrap.png"
+  }
+]

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #6fa3ef 0%, #b3d1fa 100%); /* lighter blue gradient */
+    color: #23272a; /* charcoal text */
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+h1, h2, .about-header {
+    color: #1a2636; /* deep neutral for headings */
+    text-shadow: 0 2px 8px rgba(41,134,204,0.08);
+}
+
+p, a, li {
+    color: #23272a; /* charcoal */
+}
+
+.card {
+    background: #f4f7fa; /* light neutral */
+    color: #23272a;
+    border: 1px solid #cfd8dc;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(41,134,204,0.10); /* steelblue shadow */
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(41,134,204,0.18); /* steelblue shadow */
+}
+
+.card-header, .card-footer {
+    background: linear-gradient(90deg, #6fa3ef 0%, #b3d1fa 100%);
+    color: #fff;
+    border: none;
+    border-radius: 16px 16px 0 0;
+}
+
+.btn-outline-primary {
+    border-color: #2986cc;
+    color: #2986cc;
+    background: linear-gradient(90deg, #f4f7fa 0%, #e3e6ea 100%);
+    border-radius: 8px;
+    transition: color 0.2s, background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(41,134,204,0.08); /* steelblue shadow */
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background: #2986cc;
+    box-shadow: 0 4px 16px rgba(41,134,204,0.15); /* steelblue shadow */
+}
+
+.navbar, .footer, footer {
+    background: linear-gradient(90deg, #e3e6ea 0%, #b3d1fa 100%) !important; /* light neutral gradient */
+    color: #23272a !important;
+    box-shadow: 0 2px 8px rgba(41,134,204,0.08); /* steelblue shadow */
+}
+
+.cert-img-container {
+    text-align: center;
+    margin: 1.5em 0;
+}
+.cert-img {
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px;
+}
+a:visited {
+    color: purple;
+}
+a {
+    text-align: center;
+}
+
+h1,
+h2,
+p,
+a {
+    color: #003366;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+.developer-img {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 16px;
+    border: 3px solid #6fa3ef;
+    box-shadow: 0 4px 16px rgba(41,134,204,0.10);
+    background: #f4f7fa;
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
+
+.about-header {
+    color: #003366; /* darker blue */
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    color: #003366 !important; /* darker blue for main page titles */
+}
+
+/* Accent Color Highlights */
+h1, h2, h3, h4, h5, h6 {
+    color: #003366;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+p, a, li {
+    color: #23272a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.btn-outline-primary, a {
+    border-radius: 8px;
+    color: #2986cc;
+    transition: color 0.2s, background 0.2s;
+}
+.btn-outline-primary:hover, a:hover {
+    color: #fff;
+    background: #2986cc;
+}
