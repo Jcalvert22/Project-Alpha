@@ -87,3 +87,6 @@ flowchart LR
 - GitHub hosts the source code, which is deployed to a cloud host (GitHub Pages).
 - The app serves the UI, which loads assets and libraries from CDNs (Bootstrap, icons, Normalize, zero-md).
 - The UI is rendered for the user in the browser.
+
+## Lighthouse Report
+[View the latest Lighthouse report](https://pagespeed.web.dev/analysis/https-jcalvert22-github-io-Project-Alpha/5rgzyh1m9e?form_factor=mobile)
