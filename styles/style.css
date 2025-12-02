@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap');
 
+/* Ensure font-display: swap for Google Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    font-display: swap;
+}
+
 body {
     background: linear-gradient(135deg, #6fa3ef 0%, #b3d1fa 100%); /* lighter blue gradient */
     color: #23272a; /* charcoal text */

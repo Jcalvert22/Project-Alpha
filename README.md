@@ -38,6 +38,14 @@ A modern, responsive developer profile and portfolio for CIS-376. The site inclu
 ```
 
 
+
+## Performance Optimization Notes
+
+- For best results, convert images to WebP and use <img> srcset for responsive delivery.
+- Set cache-control headers for static assets (images, CSS, JS) in your hosting/CDN for longer cache lifetimes.
+- All scripts use defer for non-blocking load.
+- Font-display: swap is set for Google Fonts.
+
 ## Documentation & Wiki
 
 - [Project Wiki (Knowledge Reflection, Templates, Docs)](https://github.com/jcalvert22/Project-Alpha/wiki)
