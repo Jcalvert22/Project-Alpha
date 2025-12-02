@@ -37,6 +37,11 @@ A modern, responsive developer profile and portfolio for CIS-376. The site inclu
 </nav>
 ```
 
+
+## Documentation & Wiki
+
+- [Project Wiki (Knowledge Reflection, Templates, Docs)](https://github.com/jcalvert22/Project-Alpha/wiki)
+
 ## Project Structure Schematic
 
 ```mermaid
@@ -56,4 +61,20 @@ flowchart TD
     A --> I[README.md]
 ```
 
-This schematic shows the main folders and files in the project, illustrating the logical structure and separation of assets, styles, scripts, and pages.
+## Project Architecture Schematic
+
+```mermaid
+flowchart LR
+    VSCode[VS Code (Local)] -->|upload| GitHub[GitHub Repository]
+    GitHub -->|source| Cloud[Cloud Hosting]
+    Cloud -->|styles/pages| APP[App]
+    APP --> UI[User Interface]
+    UI --> CDN[CDNs]
+    CDN -->|BS5, icon, nav, zeromd| UI
+```
+
+**Explanation:**
+- Code is developed locally in VS Code and uploaded to GitHub.
+- GitHub hosts the source code, which is deployed to a cloud host (GitHub Pages).
+- The app serves the UI, which loads assets and libraries from CDNs (Bootstrap, icons, Normalize, zero-md).
+- The UI is rendered for the user in the browser.
